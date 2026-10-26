@@ -1,0 +1,13 @@
+{
+  "display_name": "MLX Image Workbench",
+  "loading_order": 100,
+  "requires": [],
+  "optional": [],
+  "dependencies": [
+    "stable-diffusion"
+  ],
+  "js": "index.js",
+  "author": "MLX Image Workbench contributors",
+  "version": "0.1.0",
+  "homePage": "https://github.com/suoluo456/mlx-image-workbench"
+}
