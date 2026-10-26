@@ -1,0 +1,38 @@
+# Local environments and tools
+.venv/
+.venv-reference/
+.test-runtime/
+.tools/
+.cache/
+__pycache__/
+*.py[cod]
+.DS_Store
+# User content and downloads never belong in source control
+data/
+models/
+output/
+outputs/
+references/
+logs/
+backups/
+loras/
+prompt.txt
+*.sqlite*
+*.safetensors
+*.gguf
+*.part
+*.partial
+.env
+.env.*
+!.env.example
+bin/face-box
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+# Local signing material
+*.p12
+*.p8
+*.pem
+*.key

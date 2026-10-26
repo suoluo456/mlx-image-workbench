@@ -1,0 +1,31 @@
+MLX Image Workbench — macOS 双击安装版
+
+支持 M 系列 Mac、macOS 26 或更新系统。无需提前安装 Python。
+
+1. 请下载 Release 中的 MLX-Image-Workbench-版本号-macOS.zip。
+2. 在 Finder 双击 ZIP 解压，将整个文件夹移到你准备长期使用的位置。
+3. 双击「安装.command」，在弹窗中选择模型和是否安装酒馆支持。
+4. 安装完成后双击「启动.command」，浏览器会打开工作台。
+
+终端窗口用于显示下载和运行进度，不需要输入命令。
+保持服务窗口开启；关闭服务可在该窗口按 Control+C。
+模型下载较大，建议保持网络连接。中断后重新双击安装即可继续。
+只安装环境、不下载模型也可以先打开工作台。
+
+如果 macOS 提示“无法验证开发者”：
+本发布包尚未经过 Apple Developer ID 签名和公证。
+先尝试打开一次，再到「系统设置 → 隐私与安全性」，按系统提示对本文件选择「仍要打开」。
+只在你确认下载来源后放行该文件。不要关闭 Gatekeeper 或全局系统安全保护。
+Apple 官方说明：https://support.apple.com/102445
+
+这个 Release ZIP 为 .command 保留 755 执行权限，正常用 Finder 解压无需 chmod。
+若提示“没有执行权限”，请重新下载 Release ZIP 并用 macOS 自带解压工具解压，
+避免经由会丢失 Unix 权限的网盘、打包工具或文件系统中转。
+本项目不能保证受单位管理的 Mac 允许运行未签名脚本；这种情况请按设备管理规则处理。
+
+你的生成图片、日志、历史和参考图只在本机 data 文件夹中。
+模型在 models 文件夹；运行环境在 .venv / .venv-reference，安装工具在 .tools。
+发布包不包含作者的历史记录、日志、参考图、模型或个人配置。
+
+更多说明见 README.md。遇到问题可双击「环境检查.command」。
+SillyTavern 是独立可选功能，安装方式见 docs/sillytavern.md。

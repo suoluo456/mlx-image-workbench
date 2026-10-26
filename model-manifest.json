@@ -1,0 +1,375 @@
+{
+  "schema": 1,
+  "models": {
+    "qwen21_turbo": {
+      "name": "Qwen-Image-2.1 Turbo · MLX 8bit",
+      "folder": "Qwen-Image-2.1-Turbo-MLX-8bit",
+      "files": [
+        {
+          "path": "processor/chat_template.jinja",
+          "size": 5292,
+          "sha256": "3636d0f0bd6bef02654cdffdc447b79cb2cef8ab02cc75267345946291a489e4",
+          "repo": "JoyFusionAI/Qwen-Image-2.1-MLX-8bit",
+          "revision": "52c591754041eea71f4b67eb9e6ee0a2cc172123",
+          "remote_path": "processor/chat_template.jinja"
+        },
+        {
+          "path": "processor/tokenizer.json",
+          "size": 11422650,
+          "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+          "repo": "JoyFusionAI/Qwen-Image-2.1-MLX-8bit",
+          "revision": "52c591754041eea71f4b67eb9e6ee0a2cc172123",
+          "remote_path": "processor/tokenizer.json"
+        },
+        {
+          "path": "processor/tokenizer_config.json",
+          "size": 417,
+          "sha256": "bfbbc1983aa3f46c0f496d90a37fbbea8047581fbd7250534f112445be84b5a6",
+          "repo": "JoyFusionAI/Qwen-Image-2.1-MLX-8bit",
+          "revision": "52c591754041eea71f4b67eb9e6ee0a2cc172123",
+          "remote_path": "processor/tokenizer_config.json"
+        },
+        {
+          "path": "text_encoder/0.safetensors",
+          "size": 2100351758,
+          "sha256": "68fd0881c228209d131487cd8fb1f61e988218fba3063cb942f7fd7dd8113d64",
+          "repo": "JoyFusionAI/Qwen-Image-2.1-MLX-8bit",
+          "revision": "52c591754041eea71f4b67eb9e6ee0a2cc172123",
+          "remote_path": "text_encoder/0.safetensors"
+        },
+        {
+          "path": "text_encoder/1.safetensors",
+          "size": 2130797127,
+          "sha256": "93d134b9b1b63411be867ce222852bd323b20d70a1a56198417bd14a8a1d895b",
+          "repo": "JoyFusionAI/Qwen-Image-2.1-MLX-8bit",
+          "revision": "52c591754041eea71f4b67eb9e6ee0a2cc172123",
+          "remote_path": "text_encoder/1.safetensors"
+        },
+        {
+          "path": "text_encoder/2.safetensors",
+          "size": 2114037588,
+          "sha256": "ae33719407957b215d630f60071c33454f08e7de8ffe32fceba35ffde2e9f234",
+          "repo": "JoyFusionAI/Qwen-Image-2.1-MLX-8bit",
+          "revision": "52c591754041eea71f4b67eb9e6ee0a2cc172123",
+          "remote_path": "text_encoder/2.safetensors"
+        },
+        {
+          "path": "text_encoder/3.safetensors",
+          "size": 2130797154,
+          "sha256": "c31b1356cf93c1c28d72ad7062f2ee60e8bfe5ef1f58ebec476515aa0441449a",
+          "repo": "JoyFusionAI/Qwen-Image-2.1-MLX-8bit",
+          "revision": "52c591754041eea71f4b67eb9e6ee0a2cc172123",
+          "remote_path": "text_encoder/3.safetensors"
+        },
+        {
+          "path": "text_encoder/4.safetensors",
+          "size": 2114037609,
+          "sha256": "f91d50300cf96d9ffc8e45f60283509de7f276a700aa9cddadd83d6543e4cdbb",
+          "repo": "JoyFusionAI/Qwen-Image-2.1-MLX-8bit",
+          "revision": "52c591754041eea71f4b67eb9e6ee0a2cc172123",
+          "remote_path": "text_encoder/4.safetensors"
+        },
+        {
+          "path": "text_encoder/5.safetensors",
+          "size": 2130797162,
+          "sha256": "122337c2ab0740182ade5191204261f3ddd3e5520054d882bc67538e248db4df",
+          "repo": "JoyFusionAI/Qwen-Image-2.1-MLX-8bit",
+          "revision": "52c591754041eea71f4b67eb9e6ee0a2cc172123",
+          "remote_path": "text_encoder/5.safetensors"
+        },
+        {
+          "path": "text_encoder/6.safetensors",
+          "size": 2114037609,
+          "sha256": "ad6f3484b4bcc5ac9650c471f8f6c08498667a65379133b778766c9241b769cf",
+          "repo": "JoyFusionAI/Qwen-Image-2.1-MLX-8bit",
+          "revision": "52c591754041eea71f4b67eb9e6ee0a2cc172123",
+          "remote_path": "text_encoder/6.safetensors"
+        },
+        {
+          "path": "text_encoder/7.safetensors",
+          "size": 301998875,
+          "sha256": "0ef680931247d4c4f2f3b5f1d935ff756d95ec79586b84ef2efd43c11b89949a",
+          "repo": "JoyFusionAI/Qwen-Image-2.1-MLX-8bit",
+          "revision": "52c591754041eea71f4b67eb9e6ee0a2cc172123",
+          "remote_path": "text_encoder/7.safetensors"
+        },
+        {
+          "path": "text_encoder/model.safetensors.index.json",
+          "size": 22944,
+          "sha256": "45bf4882eb7e4b5f18200ccf2429f1bb2331ff191c9caa0ffbc26904816786a3",
+          "repo": "JoyFusionAI/Qwen-Image-2.1-MLX-8bit",
+          "revision": "52c591754041eea71f4b67eb9e6ee0a2cc172123",
+          "remote_path": "text_encoder/model.safetensors.index.json"
+        },
+        {
+          "path": "vae/0.safetensors",
+          "size": 1323975289,
+          "sha256": "91a81bbf9f9e2229113a97891f35b6655dd4959ed96d99d4184b621781efe00e",
+          "repo": "JoyFusionAI/Qwen-Image-2.1-MLX-8bit",
+          "revision": "52c591754041eea71f4b67eb9e6ee0a2cc172123",
+          "remote_path": "vae/0.safetensors"
+        },
+        {
+          "path": "vae/model.safetensors.index.json",
+          "size": 15704,
+          "sha256": "6e66e51fe20984ee8b99d2b0f0092496e9b92d427eaf00e30e1141b97cb395a5",
+          "repo": "JoyFusionAI/Qwen-Image-2.1-MLX-8bit",
+          "revision": "52c591754041eea71f4b67eb9e6ee0a2cc172123",
+          "remote_path": "vae/model.safetensors.index.json"
+        }
+      ],
+      "transformer_source": {
+        "path": "downloads/qwen-image-2.1-turbo-MLX-8bit.safetensors",
+        "remote_path": "qwen-image-2.1-turbo-MLX-8bit.safetensors",
+        "size": 7559920536,
+        "sha256": "c97758b45150544b9187567f518be89c34bb66ed41d4ba942bef0cb60d4c0f90",
+        "repo": "abenzerps/Qwen-Image-2.1-Turbo-Quantized",
+        "revision": "56ae4a3d6af356a0c138d2fbdb912d1109cd49b5"
+      },
+      "transformer": {
+        "path": "transformer/0.safetensors",
+        "size": 7559920744,
+        "sha256": "cd52a29a6eb5ca06c91bcb939fe357add23dffd1d024fc87e79c358b2d426c26"
+      }
+    },
+    "zimage": {
+      "name": "Z-Image-Turbo · MLX 8bit",
+      "folder": "z-image-turbo-mflux-q8",
+      "files": [
+        {
+          "path": "text_encoder/0.safetensors",
+          "size": 2145936704,
+          "sha256": "f8a4d2ca25f65c788d8f408827b36fa50be1f27481d928abe63ce46fb75c18e9",
+          "repo": "mflux-community/z-image-turbo-mflux-q8",
+          "revision": "4430e72e37bf2bc7bc889a42d306ae1b8d3b22de",
+          "remote_path": "text_encoder/0.safetensors"
+        },
+        {
+          "path": "text_encoder/1.safetensors",
+          "size": 2128216857,
+          "sha256": "47584d51c56dcb47a4e53a9a1c19f9497a36310b89c165e735553f8f12e26a23",
+          "repo": "mflux-community/z-image-turbo-mflux-q8",
+          "revision": "4430e72e37bf2bc7bc889a42d306ae1b8d3b22de",
+          "remote_path": "text_encoder/1.safetensors"
+        },
+        {
+          "path": "text_encoder/model.safetensors.index.json",
+          "size": 51332,
+          "sha256": "aea4dce8e2b5ac2064193060c64a23620363bb91cc2cae11dc90e6d48b31d5f5",
+          "repo": "mflux-community/z-image-turbo-mflux-q8",
+          "revision": "4430e72e37bf2bc7bc889a42d306ae1b8d3b22de",
+          "remote_path": "text_encoder/model.safetensors.index.json"
+        },
+        {
+          "path": "tokenizer/chat_template.jinja",
+          "size": 4168,
+          "sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+          "repo": "mflux-community/z-image-turbo-mflux-q8",
+          "revision": "4430e72e37bf2bc7bc889a42d306ae1b8d3b22de",
+          "remote_path": "tokenizer/chat_template.jinja"
+        },
+        {
+          "path": "tokenizer/tokenizer.json",
+          "size": 11422650,
+          "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+          "repo": "mflux-community/z-image-turbo-mflux-q8",
+          "revision": "4430e72e37bf2bc7bc889a42d306ae1b8d3b22de",
+          "remote_path": "tokenizer/tokenizer.json"
+        },
+        {
+          "path": "tokenizer/tokenizer_config.json",
+          "size": 692,
+          "sha256": "1cc816812993bff176eb4f7495433b736f06fba9b6e7b05cac7b4a1780650c95",
+          "repo": "mflux-community/z-image-turbo-mflux-q8",
+          "revision": "4430e72e37bf2bc7bc889a42d306ae1b8d3b22de",
+          "remote_path": "tokenizer/tokenizer_config.json"
+        },
+        {
+          "path": "transformer/0.safetensors",
+          "size": 2134613189,
+          "sha256": "20de1fe69bf32c5c3a92ce75d1b2680cdd4eabf6318effe3f88ff3f70931601c",
+          "repo": "mflux-community/z-image-turbo-mflux-q8",
+          "revision": "4430e72e37bf2bc7bc889a42d306ae1b8d3b22de",
+          "remote_path": "transformer/0.safetensors"
+        },
+        {
+          "path": "transformer/1.safetensors",
+          "size": 2146080675,
+          "sha256": "1b9c6aedbafb58bada03052b588b05df9516f5cd4df2beb036cf82abf1879694",
+          "repo": "mflux-community/z-image-turbo-mflux-q8",
+          "revision": "4430e72e37bf2bc7bc889a42d306ae1b8d3b22de",
+          "remote_path": "transformer/1.safetensors"
+        },
+        {
+          "path": "transformer/2.safetensors",
+          "size": 2130413997,
+          "sha256": "2b3f75e9c759aa7063c2247612816b384e41596d12bc862f52b62764978a05d1",
+          "repo": "mflux-community/z-image-turbo-mflux-q8",
+          "revision": "4430e72e37bf2bc7bc889a42d306ae1b8d3b22de",
+          "remote_path": "transformer/2.safetensors"
+        },
+        {
+          "path": "transformer/3.safetensors",
+          "size": 129578808,
+          "sha256": "aa0645b369ae1340c59bd480a0f9cf179a3f47a4eb972b08469f0d590311e818",
+          "repo": "mflux-community/z-image-turbo-mflux-q8",
+          "revision": "4430e72e37bf2bc7bc889a42d306ae1b8d3b22de",
+          "remote_path": "transformer/3.safetensors"
+        },
+        {
+          "path": "transformer/model.safetensors.index.json",
+          "size": 61606,
+          "sha256": "699e70b80e8725dcf320086dd7be898729dc922e07c80ad34e3a251423f74565",
+          "repo": "mflux-community/z-image-turbo-mflux-q8",
+          "revision": "4430e72e37bf2bc7bc889a42d306ae1b8d3b22de",
+          "remote_path": "transformer/model.safetensors.index.json"
+        },
+        {
+          "path": "vae/0.safetensors",
+          "size": 165702761,
+          "sha256": "31a58bd9cb5a17c77de300c9808ff15d1a201facac7277f3c38119b06d2004c9",
+          "repo": "mflux-community/z-image-turbo-mflux-q8",
+          "revision": "4430e72e37bf2bc7bc889a42d306ae1b8d3b22de",
+          "remote_path": "vae/0.safetensors"
+        },
+        {
+          "path": "vae/model.safetensors.index.json",
+          "size": 17378,
+          "sha256": "07c3f8a0b863c642f629f36bf8fd75bab57ebc03b82a63b8c0b625e2d5042870",
+          "repo": "mflux-community/z-image-turbo-mflux-q8",
+          "revision": "4430e72e37bf2bc7bc889a42d306ae1b8d3b22de",
+          "remote_path": "vae/model.safetensors.index.json"
+        }
+      ]
+    },
+    "qwen21_turbo_ref": {
+      "name": "Qwen Turbo 人物参考（酒馆可选）",
+      "folder": "Qwen-Image-2.1-Turbo-Reference-MLX-8bit",
+      "requires": [
+        "qwen21_turbo"
+      ],
+      "files": [
+        {
+          "path": "processor/chat_template.jinja",
+          "size": 5292,
+          "sha256": "3636d0f0bd6bef02654cdffdc447b79cb2cef8ab02cc75267345946291a489e4",
+          "repo": "JoyFusionAI/Qwen-Image-2.1-Edit-MLX-8bit",
+          "revision": "237d0ee06b49ee03f00ec8be85912b29d4c4d6d3",
+          "remote_path": "processor/chat_template.jinja"
+        },
+        {
+          "path": "processor/preprocessor_config.json",
+          "size": 507,
+          "sha256": "29cb956472acf03f6ba6846ddcd8686d82c2a36f11cdfcda17845f95bdbd9a79",
+          "repo": "JoyFusionAI/Qwen-Image-2.1-Edit-MLX-8bit",
+          "revision": "237d0ee06b49ee03f00ec8be85912b29d4c4d6d3",
+          "remote_path": "processor/preprocessor_config.json"
+        },
+        {
+          "path": "processor/tokenizer.json",
+          "size": 11422650,
+          "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+          "repo": "JoyFusionAI/Qwen-Image-2.1-Edit-MLX-8bit",
+          "revision": "237d0ee06b49ee03f00ec8be85912b29d4c4d6d3",
+          "remote_path": "processor/tokenizer.json"
+        },
+        {
+          "path": "processor/tokenizer_config.json",
+          "size": 417,
+          "sha256": "bfbbc1983aa3f46c0f496d90a37fbbea8047581fbd7250534f112445be84b5a6",
+          "repo": "JoyFusionAI/Qwen-Image-2.1-Edit-MLX-8bit",
+          "revision": "237d0ee06b49ee03f00ec8be85912b29d4c4d6d3",
+          "remote_path": "processor/tokenizer_config.json"
+        },
+        {
+          "path": "text_encoder/0.safetensors",
+          "size": 2140924995,
+          "sha256": "132729fcd67a03928a6c1fae2da6d0b0f2cf4b18cf9a078a16f8d09fa208cfb3",
+          "repo": "JoyFusionAI/Qwen-Image-2.1-Edit-MLX-8bit",
+          "revision": "237d0ee06b49ee03f00ec8be85912b29d4c4d6d3",
+          "remote_path": "text_encoder/0.safetensors"
+        },
+        {
+          "path": "text_encoder/1.safetensors",
+          "size": 2103643586,
+          "sha256": "cefd0c2f485e530a73b3ef5a206927f4bde7ab40b466981f9bed2c5b9ac5dd13",
+          "repo": "JoyFusionAI/Qwen-Image-2.1-Edit-MLX-8bit",
+          "revision": "237d0ee06b49ee03f00ec8be85912b29d4c4d6d3",
+          "remote_path": "text_encoder/1.safetensors"
+        },
+        {
+          "path": "text_encoder/2.safetensors",
+          "size": 2103643537,
+          "sha256": "40640c6a6ce1ad3ab111d090949428e4e8d86b155d161a45ba385c9fe9cfe34c",
+          "repo": "JoyFusionAI/Qwen-Image-2.1-Edit-MLX-8bit",
+          "revision": "237d0ee06b49ee03f00ec8be85912b29d4c4d6d3",
+          "remote_path": "text_encoder/2.safetensors"
+        },
+        {
+          "path": "text_encoder/3.safetensors",
+          "size": 2143607842,
+          "sha256": "aabfb19580c1f11276bce1e1a99a6ccf13f9c831d72d159c67b2a97bc2a0634e",
+          "repo": "JoyFusionAI/Qwen-Image-2.1-Edit-MLX-8bit",
+          "revision": "237d0ee06b49ee03f00ec8be85912b29d4c4d6d3",
+          "remote_path": "text_encoder/3.safetensors"
+        },
+        {
+          "path": "text_encoder/4.safetensors",
+          "size": 290069176,
+          "sha256": "b52bab5f33e08586212bf1929348de56dc726acab045c2fd4b293641b66f6607",
+          "repo": "JoyFusionAI/Qwen-Image-2.1-Edit-MLX-8bit",
+          "revision": "237d0ee06b49ee03f00ec8be85912b29d4c4d6d3",
+          "remote_path": "text_encoder/4.safetensors"
+        },
+        {
+          "path": "text_encoder/config.json",
+          "size": 1516,
+          "sha256": "369fe497e51469d3fe4e1c71c45fe98ec6853ea0885176f41cf4a224d113b44a",
+          "repo": "JoyFusionAI/Qwen-Image-2.1-Edit-MLX-8bit",
+          "revision": "237d0ee06b49ee03f00ec8be85912b29d4c4d6d3",
+          "remote_path": "text_encoder/config.json"
+        },
+        {
+          "path": "text_encoder/model.safetensors.index.json",
+          "size": 95795,
+          "sha256": "5b904bf08fd1c59d4259227001a47a8c352f222437a6767350d3eced1f1699e1",
+          "repo": "JoyFusionAI/Qwen-Image-2.1-Edit-MLX-8bit",
+          "revision": "237d0ee06b49ee03f00ec8be85912b29d4c4d6d3",
+          "remote_path": "text_encoder/model.safetensors.index.json"
+        },
+        {
+          "path": "transformer/config.json",
+          "size": 369,
+          "sha256": "807dc9508f46716e94e96815186b7a1977a6023f382998a86b6eae96f88fa22f",
+          "repo": "JoyFusionAI/Qwen-Image-2.1-Edit-MLX-8bit",
+          "revision": "237d0ee06b49ee03f00ec8be85912b29d4c4d6d3",
+          "remote_path": "transformer/config.json"
+        },
+        {
+          "path": "vae/0.safetensors",
+          "size": 1350988935,
+          "sha256": "bada17d056d9fd1e202cc911a5a5bb59fb13cc39e2dc1cf5c32bae6e878132cb",
+          "repo": "JoyFusionAI/Qwen-Image-2.1-Edit-MLX-8bit",
+          "revision": "237d0ee06b49ee03f00ec8be85912b29d4c4d6d3",
+          "remote_path": "vae/0.safetensors"
+        },
+        {
+          "path": "vae/config.json",
+          "size": 2078,
+          "sha256": "fa1ef934cc3bc905c8db73980f161639a0cac48cee4b09ee428d7d52b14412fd",
+          "repo": "JoyFusionAI/Qwen-Image-2.1-Edit-MLX-8bit",
+          "revision": "237d0ee06b49ee03f00ec8be85912b29d4c4d6d3",
+          "remote_path": "vae/config.json"
+        },
+        {
+          "path": "vae/model.safetensors.index.json",
+          "size": 15902,
+          "sha256": "ce3401ab04032e49fa946e6345ddc181b6a18b773631bb6cc0c4dae9863b5c7a",
+          "repo": "JoyFusionAI/Qwen-Image-2.1-Edit-MLX-8bit",
+          "revision": "237d0ee06b49ee03f00ec8be85912b29d4c4d6d3",
+          "remote_path": "vae/model.safetensors.index.json"
+        }
+      ]
+    }
+  }
+}

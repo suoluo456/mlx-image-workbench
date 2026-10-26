@@ -1,0 +1,14 @@
+{
+  "1": {
+    "class_type": "MLXAvatarTurbo",
+    "inputs": {
+      "prompt": "%prompt%",
+      "avatars": [],
+      "characters": [],
+      "width": "%width%",
+      "height": "%height%",
+      "seed": "%seed%",
+      "render_mode": "text"
+    }
+  }
+}
